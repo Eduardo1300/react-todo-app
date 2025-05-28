@@ -2,22 +2,6 @@
 
 Una aplicación simple de lista de tareas construida con **React**, **Tailwind CSS** y **Redux Toolkit**. Permite crear, visualizar, filtrar, actualizar y eliminar tareas de manera dinámica.
 
-![Vista del proyecto](./src/assets/paso1.png)
-
-
-![Vista del proyecto(añadimos tareas)](./src/assets/paso2.png)
-
-
-![Vista del proyecto(tachamos tareas)](./src/assets/paso3.png)
-
-![Vista del proyecto(vemos tareas pendientes)](./src/assets/paso4.png)
-
-
-![Vista del proyecto(vemos tareas completas)](./src/assets/paso5.png)
-
-![Vista del proyecto(vemos todas las tareas)](./src/assets/paso6.png)
-
-![Vista del proyecto(eliminamos las tareas)](./src/assets/paso7.png)
 
 
 ()
@@ -43,9 +27,23 @@ Una aplicación simple de lista de tareas construida con **React**, **Tailwind C
 
 ## 📸 Capturas de pantalla
 
-> Puedes agregar capturas aquí, por ejemplo:
+![Vista del proyecto](./src/assets/paso1.png)
 
-![Todo App Screenshot](./src/assets/screenshot1.png)
+
+![Vista del proyecto(añadimos tareas)](./src/assets/paso2.png)
+
+
+![Vista del proyecto(tachamos tareas)](./src/assets/paso3.png)
+
+![Vista del proyecto(vemos tareas pendientes)](./src/assets/paso4.png)
+
+
+![Vista del proyecto(vemos tareas completas)](./src/assets/paso5.png)
+
+![Vista del proyecto(vemos todas las tareas)](./src/assets/paso6.png)
+
+![Vista del proyecto(eliminamos las tareas)](./src/assets/paso7.png)
+
 
 ## 🛠️ Instalación
 
