@@ -5,19 +5,19 @@ Una aplicación simple de lista de tareas construida con **React**, **Tailwind C
 ![Vista del proyecto](./src/assets/paso1.png)
 
 
-![Vista del proyecto(añadimos tareas)](./assets/paso2.png)
+![Vista del proyecto(añadimos tareas)](./src/assets/paso2.png)
 
 
-![Vista del proyecto(tachamos tareas)](./assets/paso3.png)
+![Vista del proyecto(tachamos tareas)](./src/assets/paso3.png)
 
-![Vista del proyecto(vemos tareas pendientes)](./assets/paso4.png)
+![Vista del proyecto(vemos tareas pendientes)](./src/assets/paso4.png)
 
 
-![Vista del proyecto(vemos tareas completas)](./assets/paso5.png)
+![Vista del proyecto(vemos tareas completas)](./src/assets/paso5.png)
 
-![Vista del proyecto(vemos todas las tareas)](./assets/paso6.png)
+![Vista del proyecto(vemos todas las tareas)](./src/assets/paso6.png)
 
-![Vista del proyecto(eliminamos las tareas)](./assets/paso7.png)
+![Vista del proyecto(eliminamos las tareas)](./src/assets/paso7.png)
 
 
 ()
