@@ -85,5 +85,8 @@ react-todo-app/
 
 👨‍💻 Autor
 
-    Eduardo Valdivia
-    GitHub: @Eduardo1300
+Christopher Eduardo Valdivia Baca
+📍 Estudiante de Computación e Informática — Cibertec Callao
+🔗 LinkedIn
+📧 eduardovaldivia130@outlook.es
+📱 +51 953 587 619
