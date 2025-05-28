@@ -1,28 +1,14 @@
-import React from 'react';
-
-const FilterBar = ({ filter, setFilter }) => {
-  return (
-    <div className="filter-bar">
+const FilterBar = ({ current, onChange }) => (
+  <div className="flex justify-around my-4">
+    {['all', 'pending', 'completed'].map(key => (
       <button
-        className={filter === 'all' ? 'active' : ''}
-        onClick={() => setFilter('all')}
+        key={key}
+        className={`px-3 py-1 rounded ${current === key ? 'bg-blue-600 text-white' : 'bg-gray-200'}`}
+        onClick={() => onChange(key)}
       >
-        Todas
+        {key === 'all' ? 'Todas' : key === 'pending' ? 'Pendientes' : 'Completadas'}
       </button>
-      <button
-        className={filter === 'active' ? 'active' : ''}
-        onClick={() => setFilter('active')}
-      >
-        Pendientes
-      </button>
-      <button
-        className={filter === 'completed' ? 'active' : ''}
-        onClick={() => setFilter('completed')}
-      >
-        Completadas
-      </button>
-    </div>
-  );
-};
-
+    ))}
+  </div>
+);
 export default FilterBar;

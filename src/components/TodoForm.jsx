@@ -1,25 +1,21 @@
-import React, { useState } from 'react';
-
-const TodoForm = ({ addTodo }) => {
-  const [input, setInput] = useState('');
-
-  const handleSubmit = (e) => {
+import { useState } from 'react';
+const TodoForm = ({ onAdd }) => {
+  const [text, setText] = useState('');
+  const submit = e => {
     e.preventDefault();
-    addTodo(input);
-    setInput('');
+    onAdd(text);
+    setText('');
   };
-
   return (
-    <form className="todo-form" onSubmit={handleSubmit}>
+    <form onSubmit={submit} className="flex gap-2 mb-4">
       <input
-        type="text"
+        className="flex-1 border p-2 rounded"
+        value={text}
+        onChange={e => setText(e.target.value)}
         placeholder="Escribe una tarea"
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
       />
-      <button type="submit">Agregar</button>
+      <button className="bg-blue-600 text-white px-4 rounded">Agregar</button>
     </form>
   );
 };
-
 export default TodoForm;
