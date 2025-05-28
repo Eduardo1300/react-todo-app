@@ -2,7 +2,7 @@
 
 Una aplicación simple de lista de tareas construida con **React**, **Tailwind CSS** y **Redux Toolkit**. Permite crear, visualizar, filtrar, actualizar y eliminar tareas de manera dinámica.
 
-![Vista del proyecto](assets/paso1.png)
+![Vista del proyecto](./src/assets/paso1.png)
 
 
 ![Vista del proyecto(añadimos tareas)](./assets/paso2.png)
